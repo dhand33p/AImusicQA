@@ -1,5 +1,6 @@
 ### Valk-vipers Repo 
 
+Use this as guide 
 
 Front End Task: 
 - Create "FrontEnd" Folder
