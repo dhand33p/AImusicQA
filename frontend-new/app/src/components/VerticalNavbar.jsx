@@ -10,7 +10,7 @@ const VerticalNavbar = () => {
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/about">About</Link></li>
-        {/* Add more navigation links here if needed */}
+        <li><Link href="/chatbot">About</Link></li>
       </ul>
     </div>
   );
