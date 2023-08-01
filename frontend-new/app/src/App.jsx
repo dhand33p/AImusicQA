@@ -7,17 +7,16 @@ import './App.css';
 //import Summarize from './pages/summarize';
 //<Route path='/summarize' component={Summarize} />
 
-
-function App () {
+function App() {
     return (
-        <>
-            <VerticalNavbar />
-            <Switch>
-                <Route path='/' component={Home} />
-                <Route path='/about' component={About} />
-            </Switch>
-        </>
+      <>
+        <VerticalNavbar />
+        <Switch>
+          <Route path="/about" component={About} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </>
     );
-}
 
+    }
 export default App;

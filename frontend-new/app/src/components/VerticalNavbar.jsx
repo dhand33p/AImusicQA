@@ -1,16 +1,20 @@
 // VerticalNavbar.jsx
+// VerticalNavbar.jsx
 import React from 'react';
+import { Link } from 'wouter'; // Import the Link component from wouter
 import './VerticalNavbar.css'; // Import the CSS file for styling
 
 const VerticalNavbar = () => {
   return (
     <div className="vertical-navbar">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><Link href="/">Home</Link></li>
+        <li><Link href="/about">About</Link></li>
+        {/* Add more navigation links here if needed */}
       </ul>
     </div>
   );
 };
 
 export default VerticalNavbar;
+
