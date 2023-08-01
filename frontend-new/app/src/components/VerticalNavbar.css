@@ -2,9 +2,9 @@
 .vertical-navbar {
     display: flex; /* Use flexbox to arrange items vertically */
     flex-direction: column; /* Arrange items in a column */
-    width: 150px; /* Set the width of the navbar */
-    background-color: #f2f2f2; /* Background color for the navbar */
-  
+    width: 500px; /* Set the width of the navbar */
+    /*background-color: #f2f2f2; /* Background color for the navbar */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ad/Claude_Monet_-_Water_Lilies_and_Japanese_Bridge.jpg")
     /* Add other styles as per your preference */
   }
   
