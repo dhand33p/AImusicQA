@@ -1,0 +1,30 @@
+/* VerticalNavbar.css */
+.vertical-navbar {
+    display: flex; /* Use flexbox to arrange items vertically */
+    flex-direction: column; /* Arrange items in a column */
+    width: 150px; /* Set the width of the navbar */
+    background-color: #f2f2f2; /* Background color for the navbar */
+  
+    /* Add other styles as per your preference */
+  }
+  
+  .vertical-navbar ul {
+    list-style-type: none; /* Remove bullet points from list items */
+    padding: 0; /* Remove default padding for the list */
+  }
+  
+  .vertical-navbar li {
+    padding: 10px; /* Add some padding between list items */
+  }
+  
+  .vertical-navbar li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set the color of the links */
+  }
+  
+  /* Optional: Add hover styles for links */
+  .vertical-navbar li a:hover {
+    background-color: #ddd;
+    color: #000;
+  }
+  

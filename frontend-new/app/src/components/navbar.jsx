@@ -10,7 +10,7 @@ function Navbar() {
                 About
             </Link>
             <Link href="/summarize" className="inline-block hover:text-blue-400">
-                Summarize
+                Use SpotAI
             </Link>
         </nav>
     );
