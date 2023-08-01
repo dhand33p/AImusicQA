@@ -1,5 +1,5 @@
 # SpotAI
-## By the Valkyrie Vipers
+## HEY FRONTEND TEAM! PLEASE DON'T WORK ON THE "SUMMARIZE.JSX" PAGE. WE AREN'T USING IT SO DON'T WASTE YOUR TIME ON IT! KINDLY USE "CHATBOT.JSX" INSTEAD. - ANDI
 
 The SpotAI Bot is an innovative project aimed at helping users discover new music effortlessly. This bot is designed to take input from users in the form of text, such as a list of songs or genres, and provide them with personalized song recommendations.
 
