@@ -4,7 +4,7 @@ function Chatbot() {
     const [result, setResult] = useState('...');
 
     const onSubmit = () => {
-        setResult('You entered: ' + prompt);
+        setResult('We recommend ' + prompt);
     };
 
     return (
