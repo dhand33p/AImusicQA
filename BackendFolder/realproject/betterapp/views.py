@@ -6,7 +6,7 @@ from rest_framework.response import Response
 
 from .models import Text
 
-from summarizer.summary import * 
+from recommender.recommend import * 
 
 # says that this function can do handle POST requests
 @api_view(["POST"])
