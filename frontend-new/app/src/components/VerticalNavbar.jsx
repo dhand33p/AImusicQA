@@ -7,6 +7,7 @@ import './VerticalNavbar.css'; // Import the CSS file for styling
 const VerticalNavbar = () => {
   return (
     <div className="vertical-navbar">
+      <div className="app-name">SpotAI</div>
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/about">About</Link></li>
