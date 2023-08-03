@@ -6,7 +6,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 260px; /* Increased width for more space */
+  width: 250px; /* Increased width for more space */
   background-color: #333;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
   z-index: 1000; /* Ensure the navbar is above other elements */
@@ -53,5 +53,5 @@
 }
 
 .text-section {
-  padding-top: 260px; /* Adjust the value as needed */
+  padding-top: 300px; /* Adjust the value as needed */
 }

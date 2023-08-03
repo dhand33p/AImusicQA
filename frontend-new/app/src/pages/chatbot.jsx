@@ -8,7 +8,7 @@ function Chatbot() {
     };
 
     return (
-        <div className="container mx-auto max-w-3xl mt-20 px-5">
+        <div className="container mx-auto text-section max-w-3xl mt-20 px-5">
             <form onSubmit={e => e.preventDefault()} className="mb-10">
                 <label htmlFor="prompt" className="block text-2xl font-bold mb-3">
                     My favourite songs are...
