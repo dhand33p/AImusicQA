@@ -51,3 +51,7 @@
   background-color: #555;
   transform: translateX(5px);
 }
+
+.text-section {
+  padding-top: 260px; /* Adjust the value as needed */
+}
