@@ -54,4 +54,6 @@
 
 .text-section {
   padding-top: 300px; /* Adjust the value as needed */
+  max-width: 800px;
+  text-align: center;
 }
