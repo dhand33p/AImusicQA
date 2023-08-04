@@ -1,6 +1,4 @@
 # SpotAI
-## By the Valkyrie Vipers
-
 The SpotAI Bot is an innovative project aimed at helping users discover new music effortlessly. This bot is designed to take input from users in the form of text, such as a list of songs or genres, and provide them with personalized song recommendations.
 
 ## Key Features:
