@@ -57,3 +57,10 @@
   max-width: 800px;
   text-align: center;
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this to control the vertical centering */
+}
