@@ -1,12 +1,7 @@
 import { useState } from "react";
-<<<<<<< HEAD
+import Header from "./header";
 const getSummary = (prompt) => {
     const url = 'DJANGOURL';
-=======
-
-const getSummary = (prompt) => {
-    const url = 'http://127.0.0.1:8000/SpotAi/';
->>>>>>> a3ff6d41fa8a9f6b46497449ea32bc3a25a4b14f
     const options = {
         method: 'POST',
         headers: {
@@ -34,13 +29,10 @@ function Chatbot() {
 
     return (
         <div className="container mx-auto max-w-3xl mt-20 px-5">
+            <div><Header/></div>
             <form onSubmit={e => e.preventDefault()} className="mb-10">
                 <label htmlFor="prompt" className="block text-2xl font-bold mb-3">
-<<<<<<< HEAD
                 Please...
-=======
-                My favourite songs are...
->>>>>>> a3ff6d41fa8a9f6b46497449ea32bc3a25a4b14f
                 </label>
                 <input 
                     type="text" 
