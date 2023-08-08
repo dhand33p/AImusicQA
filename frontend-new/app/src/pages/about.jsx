@@ -5,7 +5,6 @@ function About() {
         <div><Header/>
         <div className='container text-section'>
             <h2>Meet the Team</h2>
-            <p></p>
         </div>
         </div>
     );
