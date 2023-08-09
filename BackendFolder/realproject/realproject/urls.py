@@ -20,6 +20,5 @@ from betterapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("summary/", summarize_view),
-    path('SpotAi/', recommend_song)
+    path('SpotAI/', recommend_song)
 ]
