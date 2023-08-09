@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from './header'
+import './about.css';
+
 function About() {
     return (
         <div>
-        <div><Header/></div>
-        <div className='container text-section'>
-            <h2 className='mt4'>Meet the Team</h2>
+          <div><Header/></div>
+          <div className='container text-section'>
+            <h2>Meet the Team</h2>
             <ul>
                     <li>Backend dev Abby is a sophomore in high school and enjoys playing volleyball, drawing, and listening to music</li>
                     <li>Om is a freshman in highschool who works on the backend team and during his free time likes to hang out with friends, play guitar, and play sports.</li>
@@ -14,9 +16,9 @@ function About() {
                     <li>Dhandeep is Dhandeep</li>
 
                 </ul>
+          </div>
         </div>
-        </div>
-    );
+      );
 }
 
 export default About;
