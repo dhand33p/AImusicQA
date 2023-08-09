@@ -60,7 +60,8 @@
 
 .centered {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh; /* Adjust this to control the vertical centering */
+  justify-content: center;
+  height: 30vh; /* Adjust this to control the vertical centering */
 }
