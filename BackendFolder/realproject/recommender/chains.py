@@ -13,9 +13,12 @@ from spotipy.oauth2 import SpotifyClientCredentials
 #misc import
 import os
 from dotenv import load_dotenv
+
+#getting api key
 load_dotenv()
 OPENAI_API_KEY = os.getenv('openai_api_key')
 
+#actual recommender function
 def recommender(text):
     llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
 
