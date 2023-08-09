@@ -12,9 +12,15 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 #misc import
 import os
+from dotenv import load_dotenv
 
+#getting api key
+load_dotenv()
+OPENAI_API_KEY = os.getenv('openai_api_key')
+
+#actual recommender function
 def recommender(text):
-    llm = ChatOpenAI(model_name='gpt-3.5-turbo')
+    llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
 
     auth = SpotifyClientCredentials(
         client_id=os.environ['spotify_client_id'],
@@ -154,6 +160,19 @@ def recommender(text):
                     danceable_tracks.append(track)
         return danceable_tracks
 
+        
+    Q: Name a song similar to Rolling Stone by The Weeknd
+
+    # solution in Python:
+
+
+    def solution():
+        """Name a song similar to Rolling Stone by The Weeknd"""
+        search_results = sp.search(q='Rolling Stone', type='track')
+        uri = search_results['tracks']['items'][0].get('uri')
+        tracks = sp.track_related_tracks(uri)
+        return tracks
+
 
 
     Q: {question}. Return a list or dictionary, only including the fields necessary to answer the question, including relevant scores and the uris to the albums/songs/artists mentioned. Only return the data – if the prompt asks for a format such as markdown or a simple string, ignore it: you are only meant to provide the information, not the formatting. A later step in the process will convert the data into the new format (table, sentence, etc).
@@ -213,5 +232,3 @@ def recommender(text):
     )
     overall_response = overall_chain.run(text)
     return overall_response
-
-
