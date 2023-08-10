@@ -22,3 +22,5 @@ tqdm==4.64.1
 urllib3==1.26.14
 whitenoise==6.3.0
 yarl==1.8.2
+langchain==0.0.243
+spotipy==2.23.0
