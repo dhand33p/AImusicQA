@@ -40,7 +40,7 @@ if __name__ == '__main__':
 
 **Sample Prompts**
 
-- "Name an upbeat song by Harry Styles" (finds songs from an artist with a specific emotion)
+- "Name an upbeat song and the artist" (finds song with a specific emotion and displays artist's name as well)
 
 - "What are some workout songs by Drake" (finds songs good for a workout playlist)
 
