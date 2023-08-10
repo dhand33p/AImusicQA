@@ -3,3 +3,19 @@
   max-width: 400px; /* Set the maximum width for the description section */
   margin: 0 auto; /* Center the container horizontally */
 }
+
+.journey-section {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light grey background */
+  border-radius: 8px; 
+  font-size: 16px;
+  line-height: 1.5; 
+  margin-bottom: 20px; 
+  max-width: 600px; /* Set the desired maximum width */
+  word-wrap: break-word;
+  display: inline-block; /* Add this to prevent margin collapsing */
+}
+
+.journey-section p {
+  margin: 0 0 15px; /* Space between paragraphs, no margin on top */
+}

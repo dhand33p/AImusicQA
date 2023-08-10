@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Header from "./header";
-
 const getSummary = (prompt) => {
     const url = 'DJANGOURL';
     const options = {
@@ -16,7 +15,6 @@ const getSummary = (prompt) => {
     };
     return fetch(url, options).then(res => res.json());
 }
-
 function Chatbot() {
     const [prompt, setPrompt] = useState('');
     const [result, setResult] = useState('...');
@@ -30,35 +28,28 @@ function Chatbot() {
     };
 
     return (
-        <div>
-            <Header />
+            <div><Header/>
             <div className="container mx-auto max-w-3xl mt-1 px-5">
-                <form onSubmit={e => e.preventDefault()} className="mb-5">
+                <form onSubmit={e => e.preventDefault()} className="mb-10">
                     <label htmlFor="prompt" className="block text-2xl mb-3">
-                        I want to listen to...
+                    I want to listen to...
                     </label>
-                    <input
-                        type="text"
-                        name="prompt"
-                        id="prompt"
+                    <input 
+                        type="text" 
+                        name="prompt" 
+                        id="prompt" 
                         placeholder="Beep Beep Boop Boop Type Here!"
                         value={prompt}
-                        className="w-full mb-3 bg-slate-200 p-2"
+                        className="w-full mb-5 bg-slate-200 p-2"
                         onChange={e => setPrompt(e.target.value)}
                     />
-                    <button
+                    <button 
                         className="px-5 py-3 bg-slate-600 text-white block ml-auto"
                         onClick={onSubmit}
                     >
                         Go!
                     </button>
                 </form>
-
-                {/* Second Form */}
-                <form onSubmit={e => e.preventDefault()} className="mb-5">
-                    {/* Add your form content here */}
-                </form>
-
                 <h1 className="text-2xl mb-3">
                     Spot-AI says...
                 </h1>
@@ -66,8 +57,8 @@ function Chatbot() {
                     {result}
                 </p>
             </div>
-        </div>
-    );
+        </div>    
+    );    
 }
 
 export default Chatbot;
