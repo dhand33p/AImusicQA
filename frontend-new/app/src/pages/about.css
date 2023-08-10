@@ -19,3 +19,14 @@
 .journey-section p {
   margin: 0 0 15px; /* Space between paragraphs, no margin on top */
 }
+
+.journey-sections {
+  padding: 20px;
+  border-radius: 8px; 
+  font-size: 16px;
+  line-height: 1.5; 
+  margin-bottom: 20px; 
+  max-width: 800px; /* Set the desired maximum width */
+  word-wrap: break-word;
+  display: inline-block; /* Add this to prevent margin collapsing */
+}

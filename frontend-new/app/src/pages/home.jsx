@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className='container text-section'>
+      <div className='container text-section mt-1'>
         <h1>Welcome to SpotAI</h1>
         <h2>Meet the Team</h2>
         <div className='team-section'>
