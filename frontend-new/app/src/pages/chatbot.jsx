@@ -51,7 +51,7 @@ function Chatbot() {
                     </button>
                 </form>
                 <h1 className="text-2xl mb-3 font-bold">
-                    You would also enjoy...
+                    Spot-AI says...
                 </h1>
                 <p className="p-2 bg-slate-200 rounded">
                     {result}
