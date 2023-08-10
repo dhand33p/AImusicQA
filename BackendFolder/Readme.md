@@ -26,7 +26,7 @@ example json:
 	"text": "Your prompt!" 
 }
 ```
-> You can end the server with Ctrl + C / Ctrl + BREAK on Windows or Command + BREAK on Mac
+> You can end the server with Ctrl + C / Ctrl + BREAK on Windows or Command + . on Mac
 
 **To use SPOT-AI via the python file:**
 1. Navigate to the `chains.py` file.
@@ -38,15 +38,20 @@ if __name__ == '__main__':
 3. Run the file.
 > After the prompt goes through the LangChain, your output should appear in the terminal!
 
-## **Limitations and Workarounds:**
-There are certain keywords that do not work when you try to submit it to the bot.
-DO NOT USE:
-- "recommend" (yes it's ironic, we know, but the GPT model won't let you ask for music recommendations directly)
-    - Instead, use "name a song similar to..." or "
+**Sample Prompts**
 
-Furthermore, when requesting...
-- track information, the limit is 50 at a time
-- audio features, the limit is 100 at a time
+- "Name an upbeat song by Harry Styles" (finds songs from an artist with a specific emotion)
+
+- "What are some workout songs by Drake" (finds songs good for a workout playlist)
+
+- "What are three of the most popular songs by Taylor Swift" (finds artist's most popular songs)
+
+- "Name a song similar to Streets by Doja Cat" (recommends a similar song)
+
+- "What is that song that goes I wanna one dance" (finds song based on lyrics)
+
+HOWEVER, when requesting...
+- song information, the limit is 50 at a time
 - multiple artists, the limit is 50 at a time
 > [NOTE] If you go over the limit, the bot will crash.
 
