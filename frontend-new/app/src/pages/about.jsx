@@ -6,9 +6,9 @@ function About() {
     return (
         <div>
           <div><Header/></div>
-          <div className='container text-section'>
+          <div className='container text-section mt-1'>
             <h2>Meet the Team</h2>
-            <ul>
+            <ul className='journey-sections'>
                     <li>Backend dev Abby is a sophomore in high school and enjoys playing volleyball, drawing, and listening to music</li>
                     <li>Om is a freshman in highschool who works on the backend team and during his free time likes to hang out with friends, play guitar, and play sports.</li>
                     <li>Andi is a junior high student and plays flute with local orchestras. She enjoys rock climbing and archery.</li>
