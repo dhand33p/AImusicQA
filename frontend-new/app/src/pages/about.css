@@ -1,0 +1,5 @@
+.container {
+  padding-top: 100px; /* Adjust the top padding for spacing below the header */
+  max-width: 400px; /* Set the maximum width for the description section */
+  margin: 0 auto; /* Center the container horizontally */
+}
